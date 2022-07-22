@@ -1,7 +1,7 @@
 .carcaza {
     height: 600px;   
     width: 400px;
-    background-color: limegreen;
+    background-color: rgba(243, 197, 205, 0.915);
     border-radius: 20px;
     display:flex;
     flex-direction: column;
@@ -14,13 +14,17 @@
     background-color: azure;
     border-radius: 20px;
     margin-top: 14px;
+    margin-bottom: 30px;
+}
+.botonesCentro{
+    margin-top: 200px;
 }
 
 .trapezoid {
     border: none;
     height: 0;
     width: 120px;
-    border-bottom: 50px solid lightgray;
+    border-bottom: 50px solid rgb(183, 182, 182);
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     background-color: transparent;
@@ -30,25 +34,25 @@
 #subirVol {
     transform: rotate(180deg);
     left: 150px;
-    bottom: 365px;
+    bottom: 345px;
 }
 
 #bajarVol{
     left: 150px;
-    bottom: 205px;
+    bottom: 185px;
 }
 
 
 #siguiente {
     transform: rotate(-120deg);
     left: 220px;
-    bottom: 325px;
+    bottom: 305px;
 }
 
 #anterior {
     transform: rotate(120deg);
     left: 80px;
-    bottom: 325px;
+    bottom: 305px;
 }
 
 
@@ -56,11 +60,77 @@
 #adelantar {
     transform: rotate(-60deg);
     left: 220px;
-    bottom: 245px;
+    bottom: 225px;
 }
 
 #atrasar{
     transform: rotate(60deg);
     left: 80px;
-    bottom: 245px;
+    bottom: 225px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: none;
+}
+
+#aceptar{
+    left:30px ;
+    bottom:90px;
+    position: absolute;
+}
+
+#menu{
+    left: 320px;
+    bottom: 90px;
+    position: absolute;
+}
+
+#play{
+    left: 155px;
+    bottom: 236px;
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    background-color: transparent;
+}
+
+#subirVolImg {
+    transform: rotate(180deg);
+    height: 50px;
+    width: 50px;
+}
+
+#siguienteImg {
+    transform: rotate(120deg);
+    height: 50px;
+    width: 40px;
+}
+
+#anteriorImg {
+    transform: rotate(-120deg);
+    height: 50px;
+    width: 40px;
+}
+
+#adelantarImg {
+    transform: rotate(60deg);
+    height: 50px;
+    width: 40px;
+    position: relative;
+    top: 5px;px;
+}
+
+#atrasarImg {
+    transform: rotate(-60deg);
+    height: 50px;
+    width: 40px;
+    top: 5px;
+}
+
+#playImg {
+    height: 90px;
+    width: 90px;
 }
