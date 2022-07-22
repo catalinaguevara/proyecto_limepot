@@ -9,13 +9,20 @@
 }
 
 .pantalla {
-    height: 220px;
+    height: fit-content;
     width: 370px;
-    background-color: azure;
+    background-color:transparent;
     border-radius: 20px;
     margin-top: 14px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
+#videoPlayer {
+    width: 100%;
+}
+
+
+
 .botonesCentro{
     margin-top: 200px;
 }
